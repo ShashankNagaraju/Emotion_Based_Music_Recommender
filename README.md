@@ -1,1 +1,2 @@
-# Emotion_Based_Music_Recommender
+Emotion-based music recommendation system
+This web-based application written in Python will first scan your current emotion with the help of OpenCV & then crop the image of your face from the entire frame once the cropped image is ready it will give this image to a trained MACHINE LEARNING model to predict the emotion of the cropped image, once the emotion is predicted youtube website will appear with recommended songs.
