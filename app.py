@@ -11,7 +11,7 @@ import os
 import tensorflow as tf
 
 # Load the TensorFlow Keras model
-model_path = r"C:\Users\arjun\Desktop\python_p\emotion1_model.h5"
+model_path = r"path-to-your-model.h5_file"
 model = tf.keras.models.load_model(model_path)
 
 # Mock emotion labels for demonstration purposes
@@ -108,7 +108,7 @@ if not st.session_state["run"]:
     st.session_state["run"] = True
 
 # Accessing images from dataset directory
-dataset_dir = r"C:\Users\arjun\Desktop\python_p\train"  # Update with your dataset directory path
+dataset_dir = r"path-to-your-trained_dataset"  # Update with your dataset directory path
 
 
 if os.path.exists(dataset_dir):
